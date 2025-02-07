@@ -16,6 +16,10 @@ The pipeline architecture is built to manage large volumes of data efficiently a
 - **Orchestration and Workflow**: Automated workflows using Apache Airflow to manage the pipeline’s lifecycle and handle dependencies.
 - **Monitoring**: Tools like AWS CloudWatch and Spark UI are integrated to monitor pipeline performance and health.
 
+
+  ![Data Pipeline](https://github.com/user-attachments/assets/512753e7-0733-41f9-a2a4-f6197260e399)
+
+
 ### Technologies Used
 - Apache Spark
 - AWS S3
