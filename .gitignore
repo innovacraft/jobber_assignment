@@ -1,3 +1,6 @@
 airflow_env/
 .idea/
-
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
