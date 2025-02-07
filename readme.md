@@ -11,7 +11,7 @@ This project develops a robust data pipeline to process and analyze customer and
 - `scripts/`: Python scripts for automated data processing.
 - `config/`: Configuration files for database connections.
 - `lib/`: Helper libraries for Spark session setup and configuration reading.
-- `docs/`: Additional project documentation.
+- `documents/`: [Project documentation](https://github.com/innovacraft/jobber_assignment/blob/main/documents/project_documentation.md)
 - `airflow/`: Airflow DAGs, configuration, and logs for orchestrating the pipeline.
 
 
