@@ -17,7 +17,10 @@ The pipeline architecture is built to manage large volumes of data efficiently a
 - **Monitoring**: Tools like AWS CloudWatch and Spark UI are integrated to monitor pipeline performance and health.
 
 
-  ![Data Pipeline](https://github.com/user-attachments/assets/512753e7-0733-41f9-a2a4-f6197260e399)
+
+![Data Pipeline (2)](https://github.com/user-attachments/assets/5d99cff6-de7d-4bef-85b3-873b60f4a612)
+
+
 
 
 ### Technologies Used
