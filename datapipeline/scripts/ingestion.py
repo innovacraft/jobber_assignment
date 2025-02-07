@@ -32,11 +32,14 @@ def write_data_to_stage(sales_df, customer_df):
         .mode("overwrite") \
         .parquet("s3://jobbertech/assignment/stage/sales/")
 
-def main():
+def run_ingestion():
+    """
+    Orchestrate the ingestion workflow using modular functions.
+    """
     spark = create_spark_session("Ingestion Job")
     sales_df, customer_df = read_data(spark)
     write_data_to_stage(sales_df, customer_df)
     spark.stop()
 
 if __name__ == "__main__":
-    main()
+    run_ingestion()
